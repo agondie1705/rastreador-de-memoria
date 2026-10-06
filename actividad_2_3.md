@@ -41,30 +41,9 @@ try {
  Tabla de predicciones
 
 CHATO USADO PARA LAS CORRECCIONES ORTOGRÁFICAS
-Identificador 
-¿Qué imprimirá la consola? (Predicción) 
-Justificación Teórica (Usa términos como: Hoisting, Ámbito de bloque, Ámbito de función, Undefined,...) 
-Log A 
-Imprimirá undefined 
-Ya que la variable tiene hoisting, es decir, se llama a producto antes de que tenga su valor asignado, por eso es undefined.
 
 
-Log B 
-Imprimirá Teclado Mecánico 
-Lo imprimirá correctamente al encontrarse ya con la variable producto creada. 
-Log C 
-Imprimirá 25
-Lo imprimirá porque sustituye el descuento 10 por un 25, ya que let tiene un ámbito de bloque.
-Log D 
-Imprimirá 10
-Lo imprimirá debido a que el descuento = 25 es un let y tiene un ámbito de bloque. 
-Log E 
-Imprimirá Log E: ¡ERROR CATÁSTROFICO
-Lo imprimirá así debido al mismo problema de arriba, que como el impuesto es una const tiene ámbito de bloque y no se aplica. 
-Log F 
-Imprimirá Log F: ¡ERROR CATÁSTROFICO!
-Ya que el precio también tiene ámbito de bloque y porque se encuentra en el TDZ al ser un let y llamarse antes de crearla; si fuese un var sería undefined. 
-
+<img width="685" height="702" alt="image" src="https://github.com/user-attachments/assets/fd4495e4-1b96-4276-8fa8-2296ad277baa" />
 
 comprobaciones
 
